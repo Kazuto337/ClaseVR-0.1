@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4768747130474706}
   - component: {fileID: 33122186538404048}
   - component: {fileID: 23995372506347246}
-  - component: {fileID: 64299518328418256}
+  - component: {fileID: 4232725953672926982}
   m_Layer: 8
   m_Name: PW_croissant
   m_TagString: Untagged
@@ -80,7 +80,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &64299518328418256
+--- !u!64 &4232725953672926982
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91,6 +91,6 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 0dde3021ca18047cf8bf8aad877283d2, type: 3}

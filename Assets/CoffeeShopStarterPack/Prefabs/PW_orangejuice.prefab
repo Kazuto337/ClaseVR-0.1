@@ -138,7 +138,6 @@ GameObject:
   - component: {fileID: 4656162274059434}
   - component: {fileID: 33056565686066394}
   - component: {fileID: 23836442959951306}
-  - component: {fileID: 64730163207935730}
   m_Layer: 0
   m_Name: orange
   m_TagString: Untagged
@@ -207,20 +206,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &64730163207935730
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1783331708221836}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 196d6ff3eaa204a18b80ec8a9690b156, type: 3}
 --- !u!1 &1917249971489546
 GameObject:
   m_ObjectHideFlags: 0

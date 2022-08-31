@@ -91,7 +91,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 431a1f3c7d26d4211b41fec820994ad7, type: 3}
 --- !u!1 &1387133039461448
@@ -185,7 +185,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300004, guid: 431a1f3c7d26d4211b41fec820994ad7, type: 3}
 --- !u!1 &1522448239194140
@@ -279,7 +279,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: 431a1f3c7d26d4211b41fec820994ad7, type: 3}
 --- !u!1 &1794662739935882
@@ -291,7 +291,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4841247918461458}
-  - component: {fileID: 6104636462808868038}
   m_Layer: 0
   m_Name: PW_frenchtoast_orange
   m_TagString: Untagged
@@ -316,16 +315,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &6104636462808868038
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1794662739935882}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.34, y: 0.04, z: 0.35}
-  m_Center: {x: 0, y: 0.04, z: 0.01}

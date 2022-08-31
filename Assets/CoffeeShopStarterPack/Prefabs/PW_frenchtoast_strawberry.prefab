@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4011806841037684}
-  - component: {fileID: 1507345554908200125}
   m_Layer: 0
   m_Name: PW_frenchtoast_strawberry
   m_TagString: Untagged
@@ -35,19 +34,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1507345554908200125
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1284705870682280}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.34, y: 0.04, z: 0.35}
-  m_Center: {x: 0, y: 0.04, z: 0.01}
 --- !u!1 &1669370393498240
 GameObject:
   m_ObjectHideFlags: 0
@@ -139,7 +125,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300004, guid: 222ac09728f3b4b108ffe02260b42485, type: 3}
 --- !u!1 &1681769720283084
@@ -233,7 +219,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: 222ac09728f3b4b108ffe02260b42485, type: 3}
 --- !u!1 &1804734198042302
@@ -327,7 +313,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300006, guid: 222ac09728f3b4b108ffe02260b42485, type: 3}
 --- !u!1 &1927854390044094
@@ -421,6 +407,6 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 222ac09728f3b4b108ffe02260b42485, type: 3}

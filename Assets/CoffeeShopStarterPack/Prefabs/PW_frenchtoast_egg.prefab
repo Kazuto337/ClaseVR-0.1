@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4585811153435104}
   - component: {fileID: 33129965427712746}
   - component: {fileID: 23309526108206482}
+  - component: {fileID: 5886892113727236315}
   m_Layer: 0
   m_Name: egg
   m_TagString: Untagged
@@ -79,6 +80,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5886892113727236315
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183021608578896}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: d0a13566fccc4419e80b4d16455148d1, type: 3}
 --- !u!1 &1334123225926046
 GameObject:
   m_ObjectHideFlags: 0
@@ -88,7 +103,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4969405510687266}
-  - component: {fileID: -8862675958773254340}
   m_Layer: 0
   m_Name: PW_frenchtoast_egg
   m_TagString: Untagged
@@ -113,19 +127,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &-8862675958773254340
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1334123225926046}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.34, y: 0.05, z: 0.35}
-  m_Center: {x: 0, y: 0.04, z: 0.01}
 --- !u!1 &1462301711914496
 GameObject:
   m_ObjectHideFlags: 0
@@ -137,6 +138,7 @@ GameObject:
   - component: {fileID: 4865579189551830}
   - component: {fileID: 33553032467002452}
   - component: {fileID: 23537121484844490}
+  - component: {fileID: 63215000842288981}
   m_Layer: 0
   m_Name: bread1
   m_TagString: Untagged
@@ -205,6 +207,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &63215000842288981
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462301711914496}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300004, guid: d0a13566fccc4419e80b4d16455148d1, type: 3}
 --- !u!1 &1979941670271942
 GameObject:
   m_ObjectHideFlags: 0
@@ -216,6 +232,7 @@ GameObject:
   - component: {fileID: 4973373534104232}
   - component: {fileID: 33850588948825782}
   - component: {fileID: 23719476227436974}
+  - component: {fileID: 6776080579759381272}
   m_Layer: 0
   m_Name: cream
   m_TagString: Untagged
@@ -284,3 +301,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6776080579759381272
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979941670271942}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: d0a13566fccc4419e80b4d16455148d1, type: 3}

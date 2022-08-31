@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6233592009029392887}
   - component: {fileID: 6261185682825063535}
   - component: {fileID: 6251313216207180069}
+  - component: {fileID: 1094778449763926784}
   m_Layer: 0
   m_Name: polySurface26
   m_TagString: Untagged
@@ -79,6 +80,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1094778449763926784
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6237640644632270171}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300006, guid: d7f2ead0f57364e5bbcda9f679e509a0, type: 3}
 --- !u!1 &6237741790347194193
 GameObject:
   m_ObjectHideFlags: 0
@@ -857,6 +872,7 @@ GameObject:
   - component: {fileID: 6233824063678289195}
   - component: {fileID: 6261970726395216307}
   - component: {fileID: 6253124467591215965}
+  - component: {fileID: 8012066798424745084}
   m_Layer: 0
   m_Name: polySurface23
   m_TagString: Untagged
@@ -925,6 +941,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8012066798424745084
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6239410901283058327}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300008, guid: d7f2ead0f57364e5bbcda9f679e509a0, type: 3}
 --- !u!1 &6239477603416263031
 GameObject:
   m_ObjectHideFlags: 0
@@ -934,7 +964,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6241359201451533859}
-  - component: {fileID: 6239477603416263028}
   m_Layer: 0
   m_Name: door
   m_TagString: Untagged
@@ -958,19 +987,6 @@ Transform:
   m_Father: {fileID: 6241331199975626005}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &6239477603416263028
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6239477603416263031}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.75, y: 0.57, z: 0.08}
-  m_Center: {x: -0.38, y: -0.02, z: 0.04}
 --- !u!1 &6239568369154138657
 GameObject:
   m_ObjectHideFlags: 0

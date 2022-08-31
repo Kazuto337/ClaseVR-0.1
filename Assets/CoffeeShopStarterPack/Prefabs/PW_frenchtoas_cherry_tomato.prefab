@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4532939970849458}
-  - component: {fileID: 6974750024932833397}
   m_Layer: 0
   m_Name: PW_frenchtoas_cherry_tomato
   m_TagString: Untagged
@@ -35,19 +34,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &6974750024932833397
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000415426235750}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.34, y: 0.04, z: 0.35}
-  m_Center: {x: 0, y: 0.04, z: 0.01}
 --- !u!1 &1109421544171522
 GameObject:
   m_ObjectHideFlags: 0
@@ -59,6 +45,7 @@ GameObject:
   - component: {fileID: 4639631560129380}
   - component: {fileID: 33175883080181774}
   - component: {fileID: 23601501542867156}
+  - component: {fileID: 7354045089416655886}
   m_Layer: 0
   m_Name: mint
   m_TagString: Untagged
@@ -127,6 +114,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7354045089416655886
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109421544171522}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 381eb029d06ce4246b00b6361a470447, type: 3}
 --- !u!1 &1366148318591284
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,6 +139,7 @@ GameObject:
   - component: {fileID: 4614794336251972}
   - component: {fileID: 33262895397670424}
   - component: {fileID: 23466388086070134}
+  - component: {fileID: 6541914040448412211}
   m_Layer: 0
   m_Name: cheese
   m_TagString: Untagged
@@ -206,6 +208,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6541914040448412211
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366148318591284}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300004, guid: 381eb029d06ce4246b00b6361a470447, type: 3}
 --- !u!1 &1608556025999308
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,6 +233,7 @@ GameObject:
   - component: {fileID: 4695676163684466}
   - component: {fileID: 33570794981636498}
   - component: {fileID: 23772803521210176}
+  - component: {fileID: 5173719137359391511}
   m_Layer: 0
   m_Name: bread
   m_TagString: Untagged
@@ -285,6 +302,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5173719137359391511
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608556025999308}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300006, guid: 381eb029d06ce4246b00b6361a470447, type: 3}
 --- !u!1 &1945659557137252
 GameObject:
   m_ObjectHideFlags: 0
@@ -296,6 +327,7 @@ GameObject:
   - component: {fileID: 4206557836965688}
   - component: {fileID: 33584904541060622}
   - component: {fileID: 23269706208767780}
+  - component: {fileID: 3917222340929478908}
   m_Layer: 0
   m_Name: tomatoes
   m_TagString: Untagged
@@ -364,3 +396,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3917222340929478908
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945659557137252}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: 381eb029d06ce4246b00b6361a470447, type: 3}

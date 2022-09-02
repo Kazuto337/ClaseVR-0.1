@@ -2265,7 +2265,6 @@ GameObject:
   - component: {fileID: 777623859097490049}
   - component: {fileID: 766541043200731637}
   - component: {fileID: 758988740307020465}
-  - component: {fileID: 738344902239862383}
   m_Layer: 8
   m_Name: PW_display02
   m_TagString: Untagged
@@ -2336,20 +2335,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &738344902239862383
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 782937402327269459}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: b03e78dff53e44696b0cf8dc88cf8007, type: 3}
 --- !u!1 &784480507701617488
 GameObject:
   m_ObjectHideFlags: 0
